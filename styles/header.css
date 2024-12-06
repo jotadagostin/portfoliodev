@@ -39,5 +39,28 @@ h1 {
   font-family: var(--font-family1);
   font-size: 56px;
   text-align: center;
-  margin-top: 8px;
+  margin-top: 10px;
+}
+
+.header_text {
+  p {
+    width: 680px;
+    height: 148px;
+    color: var(--gray-400);
+    font-family: var(--font-family3);
+    text-align: center;
+    margin-top: 25px;
+  }
+}
+
+.tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tags_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
