@@ -1,0 +1,20 @@
+#projects {
+  background-color: var(--gray-200);
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family2);
+  h2 {
+    color: var(--red-color);
+    font: var(--subtitle);
+    margin-top: 72px;
+    margin-bottom: 8px;
+  }
+  h1 {
+    font: var(--title-md);
+  }
+}
