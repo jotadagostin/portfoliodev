@@ -8,6 +8,7 @@
   justify-content: center;
   align-items: center;
   font-family: var(--font-family2);
+  margin-bottom: 56px;
   h2 {
     color: var(--red-color);
     font: var(--subtitle);
@@ -16,5 +17,33 @@
   }
   h1 {
     font: var(--title-md);
+  }
+}
+
+.gallery_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  padding: 12px;
+  gap: 20px;
+  width: 330px;
+  height: 280px;
+  background: var(--gray-300);
+  img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+  }
+
+  h1 {
+    font: var(--title-sm);
+    color: var(--gray-600);
+    align-self: left;
+  }
+
+  p {
+    font: var(--text-sm);
+    color: var(--gray-500);
   }
 }
