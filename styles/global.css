@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: var(--gray-500);
+}
+
+a:hover {
+  color: #3996db;
+}
+
 :root {
   /* Color: */
 
