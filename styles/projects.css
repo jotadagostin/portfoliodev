@@ -67,3 +67,7 @@
     padding-right: 4px;
   }
 }
+
+.gallery_card:hover {
+  border: 1px solid var(--gray-400);
+}

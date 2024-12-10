@@ -53,9 +53,14 @@
   gap: 12px;
   color: var(--gray-500);
   font: var(--text-md);
-  img:nth-child(3) {
+
+  img:nth-child(2) {
     position: absolute;
     left: 60.5%;
     right: 21.88%;
   }
+}
+
+.links_link:hover {
+  border: 1px solid var(--blue-color);
 }
